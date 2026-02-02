@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter-fonts {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* shared styles */
+.logo-gradient{
+    background: linear-gradient(
+    to right,
+    #F7E93F 0%,
+    #FB09B4 51%,
+    #9100F8 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.gradient-color{
+    background: linear-gradient(
+    to right,
+    #F7E93F 0%,
+    #FB09B4 51%,
+    #9100F8 100%
+  );
+}
+
+
+/* navbar related styles */
+.navbar-logo{
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+
+
+
+/* responsive for small device */
+@media screen and (max-width:576px) {
+    .hide{
+        display: none;
+    }
+
+
+}
+
