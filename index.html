@@ -13,12 +13,15 @@
 </head>
 <body class="inter-fonts"> 
 
+    <!-- header part -->
     <header >
-        <nav class="bg-[#1A0B2E] py-6  border-b-[1px] border-[#412567]">
 
-            <div class="flex max-w-[1200px] mx-auto justify-between items-center">
+        <!-- nav-bar related design -->
+        <nav class="bg-[#1A0B2E] py-6  border-b-[1px] border-[#412567] nav-bar-sd">
 
-                <h3 class="navbar-logo">Tech<span class="logo-gradient">Wave</span></h3>
+            <div class="flex max-w-[1200px] mx-auto justify-between items-center sd-width ">
+
+                <h3 class="navbar-logo nav-bar-logo">Tech<span class="logo-gradient">Wave</span></h3>
 
                 <ul class="flex list-none gap-8 hide">
                     <li><a href="" class="text-[1rem] font-extralight text-white ">About</a></li>
@@ -26,7 +29,10 @@
                     <li><a href="" class="text-[1rem] font-extralight text-white">Host</a></li>
                 </ul>
 
-                <button class="gradient-color text-white font-semibold pl-4 text-[1rem]  py-[10px] rounded-[1000px] hide">Subscribe <i class="fa-solid fa-arrow-right pr-10"></i></button>
+                <button class="gradient-color text-white font-semibold pl-4 text-[1rem]  py-2.5 rounded-[1000px] hide cursor-pointer">Subscribe <i class="fa-solid fa-arrow-right pr-10"></i></button>
+
+
+                <span class="lg:hidden"><i class="fa-solid fa-bars text-white"></i></span>
 
             </div>
 
@@ -34,7 +40,664 @@
 
         </nav>
 
+        <!-- banner related design -->
+        <div class="banner bg-[url('/assets/hero-bg.png')] bg-cover bg-center flex justify-center pb-[101px] pt-[101px]">
+            
+            <div class="banner-contents max-w-[1200px] flex flex-col justify-center items-center  ">
+
+
+                <div class="rounded-microphone">
+
+                    <div class="round-mic-badge">
+                        
+                        <img src="assets/hero-circle.png" alt="" class="round">
+                        
+                        
+                        <img src="assets/microphone.png" alt="" class="mic">
+                        
+                        <span class="badge-text">NEW</span>
+                        
+                    </div>
+
+                </div>
+
+
+
+                <h3 class="font-extrabold text-6xl text-white mb-2">TechWave</h3>
+
+                <p class="text-[1rem] font-extralight text-white mb-6 text-center">Your daily dose of tech insights, productivity hacks, and personal growth</p>
+
+                <div class="banner-btns flex gap-3">
+                    
+                    <button class="gradient-color py-3 pr-5 rounded-[10000px] text-[1rem] font-semibold text-white cursor-pointer"> <i class="fa-brands fa-spotify ml-5"></i> Listen On Spotify</button>
+
+                    <button class="border-[#00FF88] border py-3 pr-5 text-[#00FF88] text-[1rem] font-medium rounded-[1000px] cursor-pointer"><i class="fa-regular fa-envelope fa-bounce ml-5"></i> Subscribe</button>
+
+                </div> 
+
+
+            </div>
+
+        </div>
+
+
     </header>
+
+
+    <!-- main part -->
+     <main>
+
+        <!-- podcast section   -->
+        <section class="podcast-section bg-[#1A0B2E]">
+
+            <div class="podcast
+             sd-width
+             max-w-[1200px]
+             pt-[50px]
+             pb-[120px]
+             mx-auto">
+
+                <!-- podcast title and description part -->
+                <div class="podcast-title-des
+                mb-20">
+
+                    <h2 class="podcast-title
+                    font-bold
+                    text-5xl
+                    text-white 
+                    text-center
+                    mb-4
+                    ">
+                        About The Podcast
+                    </h2>
+
+                    <p class="podcast-des
+                    text-center
+                    text-[1rem]
+                    font-extralight
+                    text-white 
+                    ">
+
+                        TechWave is your go-to podcast for staying ahead in the fast-paced world of technology.  We break down complex topics into digestible insights, explore productivity strategies that actually work, and share stories of personal growth from industry leaders.
+
+                    </p>
+
+                    <p class="podcast-des
+                    podcast-small-des
+                    text-center
+                    text-[1rem]
+                    font-extralight
+                    text-white
+                    mt-6
+                    ">
+
+                        Join thousands of young professionals and tech enthusiasts who start their day with TechWave.
+
+                    </p>
+
+                </div>
+
+                <hr id="hr-bg">
+
+                <!-- podcast cards part -->
+                 <div class="podcast-card-part
+                 grid grid-cols-4
+                 gap-10">
+
+
+                    <div class="podcast-cart 
+                     flex flex-col justify-center items-center">
+
+                        <h2 class="podcast-card-title
+                        text-[#00FF88]
+                        font-black
+                        text-5xl
+                        mb-4">
+                            150K+
+                        </h2>
+
+                        <p class="podcast-card-des
+                        text-[1rem]
+                        text-[#FFFFFF]
+                        leading-5
+                        font-extralight
+                        
+                        ">
+                            Monthly Listeners
+                        </p>
+
+                    </div>
+
+                    <div class="podcast-cart flex
+                    flex-col 
+                    justify-center items-center">
+
+                        <h2 class="podcast-card-title
+                        text-[#00FF88]
+                        font-black
+                        text-5xl
+                        mb-4">
+                            200+
+                        </h2>
+
+                        <p class="podcast-card-des
+                        text-[1rem]
+                        text-[#FFFFFF]
+                        leading-5
+                        font-extralight
+                        
+                        ">
+                            Episodes Published
+                        </p>
+
+                    </div>
+
+                    <div class="podcast-cart flex
+                    flex-col 
+                    justify-center items-center">
+
+                        <h2 class="podcast-card-title
+                        text-[#00FF88]
+                        font-black
+                        text-5xl
+                        mb-4">
+                            4.9 ★
+                        </h2>
+
+                        <p class="podcast-card-des
+                        text-[1rem]
+                        text-[#FFFFFF]
+                        leading-5
+                        font-extralight
+                        
+                        ">
+                            Average Rating
+                        </p>
+
+                    </div>
+
+                    <div class="podcast-cart flex
+                    flex-col
+                    justify-center items-center">
+
+                        <h2 class="podcast-card-title
+                        text-[#00FF88]
+                        font-black
+                        text-5xl
+                        mb-4">
+                            50+
+                        </h2>
+
+                        <p class="podcast-card-des
+                        text-[1rem]
+                        text-[#FFFFFF]
+                        leading-5
+                        font-extralight
+                        
+                        ">
+                            Industry Experts
+                        </p>
+
+                    </div>
+
+
+
+                 </div>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- choose sections -->
+         <section class="bg-[#230E3D] 
+         ">
+
+            <!-- why choose part -->
+            <div class="choose-part
+             max-w-[1200px]
+             mx-auto
+             sd-width  
+             ">
+
+                <h3 class="choose-title 
+                pt-[120px]
+                text-center
+                text-5xl
+                font-bold
+                text-white
+                mb-10
+                ">
+                    Why Choose TechWave
+                </h3>
+
+                <div class="choose-card-part
+                grid grid-cols-3 grid-rows-3
+                gap-x-[30px]
+                gap-y-[30px]
+                pb-[120px]
+                ">
+
+                    <div class="
+                    choose-card 
+                    bg-[#351165]
+                    rounded-[40px] 
+                    p-10 space-y-4
+                    flex flex-col
+                    items-start
+                    justify-center
+                    row-span-2
+                    ">
+
+                        <img src="assets/headphone.png" alt="">
+
+                        <h5 class="choose-card-title
+                        font-bold
+                        text-2xl
+                        text-white
+                        ">
+                            Premium Audio Quality
+                        </h5>
+
+                        <p class="choose-card-des
+                        font-extralight
+                        leading-6
+                        text-[1rem]
+                        text-white
+                        ">
+                            Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.
+                        </p>
+
+                    </div>
+
+                    <div class="
+                    choose-card 
+                    bg-[#351165]
+                    rounded-[40px] 
+                    p-10 space-y-4
+                    flex flex-col
+                    items-start
+                    col-span-2
+                    justify-center
+                    ">
+
+                        <img src="assets/device.png" alt="">
+
+                        <h5 class="choose-card-title
+                        font-bold
+                        text-2xl
+                        text-white
+                        ">
+                            Mobile Friendly
+                        </h5>
+
+                        <p class="choose-card-des
+                        font-extralight
+                        leading-6
+                        text-[1rem]
+                        text-white
+                        ">
+                            Listen on the go with seamless mobile experience and offline downloads.
+                        </p>
+
+                    </div>
+
+                    <div class="
+                    choose-card 
+                    bg-[#351165]
+                    rounded-[40px] 
+                    p-10 space-y-4 
+                    flex flex-col
+                    items-start
+                    justify-center
+                    col-span-2
+                    ">
+
+                        <img src="assets/location.png" alt="">
+
+                        <h5 class="choose-card-title
+                        font-bold
+                        text-2xl
+                        text-white
+                        ">
+                            Global Community
+                        </h5>
+
+                        <p class="choose-card-des
+                        font-extralight
+                        leading-6
+                        text-[1rem]
+                        text-white
+                        ">
+                            Connect with tech enthusiasts from over 120 countries worldwide.
+                        </p>
+
+                    </div>
+
+                    <div class="
+                    choose-card 
+                    bg-[#351165]
+                    rounded-[40px] 
+                    p-10 space-y-4
+                    flex flex-col
+                    items-start
+                    justify-center
+                    col-span-2
+                    ">
+
+                        <img src="assets/location.png" alt="">
+
+                        <h5 class="choose-card-title
+                        font-bold
+                        text-2xl
+                        text-white
+                        ">
+                            Exclusive Interviews
+                        </h5>
+
+                        <p class="choose-card-des
+                        font-extralight
+                        leading-6
+                        text-[1rem]
+                        text-white
+                        ">
+                            Get unprecedented access to industry titans, startup founders, and tech visionaries. Our host secures exclusive conversations you won't find anywhere else, diving deep into their journeys, failures, and success strategies.
+                        </p>
+
+                    </div>
+
+                    <div class="
+                    choose-card 
+                    bg-[#351165]
+                    rounded-[40px] 
+                    p-10 space-y-4
+                    flex flex-col
+                    items-start
+                    justify-center
+                    ">
+
+                        <img src="assets/resource.png" alt="">
+
+                        <h5 class="choose-card-title
+                        font-bold
+                        text-2xl
+                        text-white
+                        ">
+                            Rich Resources
+                        </h5>
+
+                        <p class="choose-card-des
+                        font-extralight
+                        leading-6
+                        text-[1rem]
+                        text-white
+                        
+                        ">
+                            Access show notes, transcripts, and additional learning materials for every episode.
+                        </p>
+
+                    </div>
+
+                    
+
+                </div>
+
+            </div>
+
+
+         </section>
+
+
+         <!-- Features sections -->
+        <section class="
+         features-section
+         bg-[#1A0B2E]
+         ">
+
+        <!-- 1200px er featured section -->
+         <div class="features-whole-part
+          sd-width ">
+
+            <div class="featured-title">
+                <h2>Featured Episodes</h2>
+            </div>
+
+            <!-- card sections -->
+            <div class="feature-card-part">
+
+                <!-- for one single card -->
+                <div class="feature-card">
+
+                    <div class="youtube-video">
+                        <iframe width="380" height="214" src="https://www.youtube.com/embed/lq-sWRnYWKQ?si=FVo8fiLdSFfre16m" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen ></iframe>
+                    </div>
+                    
+
+                    <div class="video-title-des">
+
+                       <h2>
+                        The Future of AI in Everyday Life
+                       </h2>
+
+                        <p>
+                            Exploring how artificial intelligence is transforming our daily routines and what to expect in the next decade.
+                        </p>
+
+                        <div class="duration-part">
+                            <img src="assets/clock.png" alt="">
+
+                            <p class="duraion">
+                                42 min
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    
+
+                </div>
+
+                <div class="feature-card">
+
+                    <div class="youtube-video">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/nrpy3fOU0es?si=XfezZij4Fbprqoz4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    
+
+                    <div class="video-title-des">
+
+                       <h2>
+                        Building Better Habits for Remote Work
+                       </h2>
+
+                        <p>
+                            Practical strategies for staying productive and maintaining work-life balance in a remote environment.
+                        </p>
+
+                        <div class="duration-part">
+                            <img src="assets/clock.png" alt="">
+
+                            <p class="duraion">
+                                35 min
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    
+
+                </div>
+
+                <div class="feature-card">
+
+                    <div class="youtube-video">
+                       <iframe width="560" height="315" src="https://www.youtube.com/embed/keQkbbgblTs?si=ekXOn7yGGfQN5F5I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    
+
+                    <div class="video-title-des">
+
+                       <h2>
+                        Career Growth in Tech: A Roadmap
+                       </h2>
+
+                        <p>
+                            Expert advice on navigating your tech career from junior developer to senior leadership roles.
+                        </p>
+
+                        <div class="duration-part">
+                            <img src="assets/clock.png" alt="">
+
+                            <p class="duraion">
+                                51 min
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    
+
+                </div>
+
+
+
+            </div>
+            <!-- card sections -->
+
+         </div>
+          <!-- 1200px er featured section -->
+
+
+         </section>
+          <!--////////// end of the Feature section //////////-->
+
+
+        <!-- ****** start of host section ********** -->
+         <section class="host-section bg-[#1A0B2E]">
+            
+            <div class="host sd-width">
+
+                <h3 class="host-title">Meet the Host</h3>
+
+                <div class="host-part">
+                    
+                    
+                    <div class="host-img">
+                        <img src="assets/host.png" alt="" class="host-img">
+                    </div>
+                    
+                    <div class="host-name-bio">
+                        <h4 class="host-name">Alex Kumar</h4>
+                        
+                        <p class="host-bio">
+                            Tech entrepreneur, productivity expert, and lifelong learner. Alex has been in the tech industry for over 10 years, working with startups and Fortune 500 companies. Through TechWave, Alex shares insights from industry leaders and practical advice for anyone looking to grow in tech.
+                        </p>
+                        
+                        <div class="host-social-part flex gap-2">
+                            <div class="social">
+                                <img src="assets/linkedin.png" alt="" class="host-social-logo">
+                            </div>
+
+                            <div class="social">
+                                <img src="assets/x.png" alt="" class="host-social-logo">
+                            </div>
+
+
+                            <div class="social">
+                                <img src="assets/instagram.png" alt="" class="host-social-logo">
+                            </div>
+
+
+                            <div class="social">
+                                <img src="assets/youtube.png" alt="" class="host-social-logo">
+                            </div>
+
+                            
+                            
+                        </div>
+                        
+                        
+                        
+                    </div>
+                    
+                </div>
+                    
+            </div>
+                
+
+         </section>
+        <!--******* End of the host section *********** -->
+
+     </main>
+
+
+     <!-- footer section related html  -->
+     <footer class="footer-section">
+
+        <div class="footer-content sd-width">
+
+            <h3 class="navbar-logo nav-bar-logo footer-logo">Tech<span class="logo-gradient">Wave</span>
+            </h3>
+
+            <div class="footer-social-section">
+
+                <div class="footer-social-logo-name">
+                    <img src="assets/spotify.png" alt="" class="footer-social-logo">
+
+                    <p class="footer-social-name">
+                        Spotify
+                    </p>
+                </div>
+
+                <div class="footer-social-logo-name">
+                    <img src="assets/apple-podcast.png" alt="" class="footer-social-logo">
+                    
+                    <p class="footer-social-name">
+                        Apple Podcasts
+                    </p>
+                </div>
+
+
+                <div class="footer-social-logo-name">
+                    
+
+                        <img src="assets/youtube-podcast.png" alt="" class="footer-social-logo">
+                        
+                    
+                    
+                    <p class="footer-social-name">
+                        YouTube
+                    </p>
+                </div>
+
+
+                <div class="footer-social-logo-name">
+
+                     
+                        <img src="assets/twitter.png" alt="" class="footer-social-logo">
+                    
+                    
+                    <p class="footer-social-name">
+                        Twitter
+                    </p>
+                </div>
+
+            </div>
+
+            <p class="copy-right">
+                © 2026 TechWave Podcast. All rights reserved.
+            </p>
+            
+
+        </div>
+
+
+
+     </footer>
 
     
 </body>

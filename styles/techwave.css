@@ -41,13 +41,480 @@
 }
 
 
+.round-mic-badge{
+  position: relative;
+}
+
+ .round{
+  width: 390px;
+  height: auto;
+  transform: scale(1.14) translate(0, 60px);
+  animation: move-round 1.5s ease-in-out 0.5s infinite  alternate ;
+}
+
+@keyframes move-round {
+  from{
+    transform: scale(1.15);
+  }
+
+  to{
+    transform: scale(1.17);
+  }
+  
+}
+
+.rounded-microphone .round-mic-badge .mic{
+  position: relative;
+  width: 140px;
+  top: -300px;
+  left: 32%;
+}
+
+.badge-text{
+  background-color: #00FF88;
+  padding: 8px 16px;
+  position: absolute;
+  border-radius: 20px;
+  font-weight: 700;
+  top: 30px;
+  left: 350px;
+  display: inline-block;
+}
+
+
+
+ hr{
+    border-color: rgba(255, 255, 255, 0.10);
+    margin-bottom: 80px;
+  }
+
+  /* features section part  */
+  .features-whole-part{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 120px;
+  }
+
+  .featured-title{
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+    margin-bottom: 40px;
+  }
+
+  .featured-title h2{
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+
+  }
+
+  .feature-card-part{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+
+  .feature-card{
+    background-color: #250D44;
+    border-radius: 10px;
+    max-width: 380px;
+  }
+
+  .youtube-video{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    overflow: hidden;
+  }
+
+  .youtube-video > iframe{
+    width: 100%;
+    height: 214px;
+    display: block;
+  }
+
+  .video-title-des{
+    max-width: 332px;
+    width: 100%;
+    margin: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+ .video-title-des > h2{
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+
+ } 
+
+ .video-title-des > p{
+  font-size: 1rem;
+  font-weight: 200;
+  color: white;
+  line-height: 24px;
+ }
+
+ .duration-part{
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  margin-bottom: 24px;
+ }
+
+ .duration-part > img{
+  width: 20px;
+  height: 20px;
+ }
+
+ .duration-part > p{
+  font-size: 1rem;
+  line-height: 24px;
+  font-weight: 600;
+  color: #00FF88;
+ }
+
+
+ /**** design of host part *******/
+ .host{
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  margin: 0 auto;
+  gap: 40px;
+  padding-bottom: 120px;
+ }
+
+ .host-title{
+  font-size: 3rem;
+  font-weight: 700;
+  color: white; 
+ }
+
+ .host-part{
+  display: flex;
+  gap: 24px;
+  padding: 40px;
+  background: linear-gradient(to right, #533C72, #351165);
+  border-radius: 20px;
+ }
+
+.host-img{
+  width: 370px;
+  height: 180px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.host-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+
+ .host-name-bio{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: flex-start;
+  align-items: flex-start;
+ }
+
+ .host-name{
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 39px;
+  text-align: left;
+  color: white;
+ }
+
+ .host-bio{
+  font-size: 1rem;
+  font-weight: 200;
+  line-height: 24px;
+  color: white;
+ }
+
+ 
+.social {
+  box-sizing: border-box;
+  border: 1px solid rgba(83, 60, 114, 1);
+  padding: 10px;
+  border-radius: 50%;
+
+}
+
+
+
+/****** footer section related design *********/
+footer{
+  background-image: url(/assets/footer-bg.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.footer-content{
+  max-width: 1360px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  gap: 32px;
+  align-items: center;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  position: relative;
+  bottom: 15px;
+}
+
+.footer-logo{
+  font-size: 4rem;
+}
+
+.footer-social-section{
+  display: flex;
+  gap: 40px;
+}
+
+.footer-social-logo-name{
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-social-logo{
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.footer-social-name{
+  color: rgba(255, 255, 255, 1);
+  font-size: 1rem;
+  font-weight: 200;
+  line-height: 19px;
+  text-align: center;
+}
+
+.copy-right{
+  color: rgba(250, 250, 250, 1);
+  font-size: 1rem;
+  font-weight: 200;
+  line-height: 24px;
+  text-align: center;
+  
+}
+
+/************* End footer ***************/
+
+
 
 /* responsive for small device */
 @media screen and (max-width:576px) {
-    .hide{
-        display: none;
-    }
 
+  /* shared styles */
+  .sd-width{
+    max-width: 92%;
+  }
+
+  .hide{
+    display: none;
+  }
+
+  /* nav-bar related styles */
+  .nav-bar-sd{
+   padding-top: 10px;
+   padding-bottom: 10px;
+  }
+
+  .sd-part{
+    padding-top: 40px;
+  }
+
+  .banner-microphone{
+    width: 200px;
+    height: 200px;
+    background-size: contain;
+  }
+
+  .banner-microphone-img{
+    width: 80px;
+    height: 80px;
+  }
+
+  .banner-des{
+    text-align: center;
+  }
+
+  /* podcast sections */
+  .podcast{
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .podcast-title-des{
+    margin-bottom: 40px;
+  }
+
+  .podcast-title{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+  }
+
+  .podcast-des{
+    text-align: center;
+    line-height: 20px;
+  }
+
+  .podcast-small-des{
+    margin-top: 10px;
+    
+  }
+
+  hr{
+    margin-bottom: 40px;
+  }
+
+  .podcast-card-part{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    
+  }
+
+  .podcast-card-title{
+    font-size: 2.5rem;
+
+  }
+
+  /* choose sections */
+  .choose-part{
+    /* padding-top: 0px; */
+    padding-bottom: 40px; 
+  }
+
+  .choose-title{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+    padding-top: 40px;
+  }
+
+  .choose-card-part{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1,1fr);
+    justify-items: center;
+    align-items: center;
+    gap: 16px;
+    padding-bottom: 40px; 
+  }
+
+  .choose-card{
+    padding: 24px;
+  }
+
+  .choose-card-title{
+    font-size: 1.37rem;
+
+  }
+
+
+  /* feature related css */
+
+  .features-whole-part{
+    padding-bottom: 60px;
+  }
+  
+
+  .featured-title{
+    margin-bottom: 24px;
+    padding-top: 40px;
+  }
+
+  .featured-title h2{
+    font-size: 2rem;
+  }
+
+  .feature-card-part{
+    grid-template-columns: repeat(1, 1fr);
+    gap: 16px;
+  }
+
+  .video-title-des{
+    gap: 16px;
+  }
+
+  .video-title-des > h2{
+    font-size: 1.25rem;
+    font-weight: 700;
+
+  }
+
+
+  /* host section related design */
+  .host{
+    padding-top: 60px;
+    padding-bottom: 40px;
+    gap: 24px;
+  }
+
+  .host-title{
+    font-size: 2rem;
+  }
+
+
+  .host-part{
+    flex-direction: column;
+    gap: 16px;
+    padding: 24px;
+    align-items: center;
+  }
+
+  .host-img{
+    width: 150px;
+    height: 150px;
+  }
+
+  .host-name-bio{
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+  }
+
+
+  /* footer section related design */
+  footer{
+     background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+   
+  }
+
+  
+
+  .footer-content{
+    gap: 24px;
+    padding: 40px 20px;
+  }
+
+  .footer-logo{
+    font-size: 2rem;
+  }
+
+  .footer-social-section{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  
+  
 
 }
 
