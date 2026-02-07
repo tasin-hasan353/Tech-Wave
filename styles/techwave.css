@@ -491,7 +491,7 @@ footer{
 
   /* footer section related design */
   footer{
-     background-size: contain;
+     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
    
