@@ -253,7 +253,7 @@
 
 /****** footer section related design *********/
 footer{
-  background-image: url(../assets/footer-bg.png);
+  background-image: url('../assets/footer-bg.png');
   background-size: cover;
   background-position: center;
 }
